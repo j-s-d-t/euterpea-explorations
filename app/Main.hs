@@ -21,7 +21,7 @@ grain _ ap vol pfields =
 -- Constructing the InstrMap:
 
 grainName :: InstrumentName
-grainName = CustomInstrument "Grain"
+grainName = CustomInstrument "Sound"
 
 grainMap :: InstrMap (AudSF () Double)
 grainMap = [(grainName, grain)]
